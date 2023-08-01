@@ -17,9 +17,9 @@ def merge_alternately(word1, word2):
         merged += word2[i]
 
     if len(word1) > len(word2):
-        merged += word1[i + 1 :]
+        merged += word1[i + 1:]  # fmt: skip
     if len(word2) > len(word1):
-        merged += word2[i + 1 :]
+        merged += word2[i + 1:]  # fmt: skip
 
     return merged
 
